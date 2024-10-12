@@ -10,6 +10,7 @@
     "@adiwajshing/keyed-db": "^0.2.4",
     "@google/generative-ai": "^0.5.0",
     "@neeraj-x0/ytsearch": "^1.0.0",
+    "@whiskeysockets/baileys": "^6.7.8",
     "axios": "^1.4.0",
     "baileys": "github:X-Electra/baileys",
     "bitly": "^4.1.1",
@@ -41,6 +42,7 @@
   },
   "scripts": {
     "start": "pm2 start index.js --name x-asena && pm2 logs x-asena",
+    "stop": "pm2 stop x-asena",
     "code": "node lib/pcode.js"
   },
   "repository": {
